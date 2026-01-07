@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import RateLimitedUI from "../components/RateLimitedUI";
 import axios from "axios";
 import toast from "react-hot-toast";
+import NoteCard from "../components/NoteCard";
 const HomePage = () => {
   const [israteLimited, setIsRateLimited] = useState(false);
   const [notes, setNotes] = useState([]);
